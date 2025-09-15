@@ -1,12 +1,12 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-baseURL: 'https://parcel-pro-server-livid.vercel.app/'
-})
+  baseURL: " https://serverw1.vercel.app",
+});
 const useAxiosPublic = () => {
-    return axiosPublic;
+  return axiosPublic;
 };
 
 export default useAxiosPublic;
 
-// https://parcel-pro-server-livid.vercel.app/
+// https://serverw1.vercel.app

@@ -1,27 +1,26 @@
-import Accordion from "./Accordion";
-import Banner from "./Banner";
-import Brand from "./Brand";
-import GrowBusiness from "./GrowBusiness";
-import LicensedMembership from "./LicensedMembership";
-import Service from "./Service";
-
-import WhyChoose from "./WhyChoose";
-
-
+// import img from "../../assets/img/ezgif.com-animated-gif-maker.gif";
+import About from "./About/About";
+// import Cart from "./Cart/Cart";
+import Contact from "./Contact/Contact";
+import Header from "./Header/Header";
+import Hero from "./Hero/Hero";
+import Pricing from "./Pricing/Pricing";
+import Services from "./Services/Services";
+import SuccessRate from "./SuccessRate/SuccessRate";
 const Home = () => {
-    return (
-        <div className="">
-           <Banner></Banner>
-           <Brand></Brand>
-           <Service></Service>
-           <WhyChoose></WhyChoose>
-           <Accordion></Accordion>
-           <GrowBusiness></GrowBusiness>
-           <LicensedMembership></LicensedMembership>
-           
-           
-        </div>
-    );
+  return (
+    <div className="overflow-x-hidden">
+      <Header></Header>
+      <Hero></Hero>
+      <About></About>
+      <SuccessRate></SuccessRate>
+      <Services></Services>
+
+      <Pricing></Pricing>
+      {/* <Cart></Cart> */}
+      <Contact></Contact>
+    </div>
+  );
 };
 
 export default Home;
