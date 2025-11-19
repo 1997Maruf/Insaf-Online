@@ -98,14 +98,57 @@ Admin features (if included)
 📁 Folder Structure
 ```
 Insaf-Online/
-├─ index.html
-├─ assets/
-│ ├─ css/
-│ │ └─ style.css
-│ └─ img/
-├─ js/
-│ └─ main.js
-└─ README.md
+│
+├── public/
+│ ├── index.html
+│ ├── favicon.ico
+│ └── (other assets)
+│
+├── src/
+│ ├── assets/
+│ │ └── (images, icons, logos)
+│ │
+│ ├── firebase/
+│ │ └── firebase.config.js
+│ │
+│ ├── hooks/
+│ │ └── useAuthHook.js
+│ │
+│ ├── layout/
+│ │ └── MainLayout.jsx
+│ │
+│ ├── pages/
+│ │ ├── Dashboard/
+│ │ │ └── Dashboard.jsx
+│ │ │
+│ │ ├── Home/
+│ │ │ └── Home.jsx
+│ │ │
+│ │ ├── Login/
+│ │ │ └── Login.jsx
+│ │ │
+│ │ ├── Registration/
+│ │ │ └── Registration.jsx
+│ │ │
+│ │ ├── PrivateRoute/
+│ │ │ └── PrivateRoute.jsx
+│ │ │
+│ │ ├── Providers/
+│ │ │ └── AuthProvider.jsx
+│ │ │
+│ │ └── SharedComponents/
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ └── Navbar.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── router.js
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
 ```
 
 📦 Installation & Setup
